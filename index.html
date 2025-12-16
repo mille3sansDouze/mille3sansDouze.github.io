@@ -3,80 +3,95 @@
     <head>
         <meta charset="UTF-8">
         <title>Site vitrine</title>
+        <link rel="stylesheet" href="styles.css">
     </head>
-    <body style="background-color: rgba(0, 0, 0, 0.888);">
-        <img src="manu.jpg" width="450" height="100">
-        <h1 style="background-color:rgb(84, 255, 252);" ><em>Alphée Sordet Salin</em></h1>
-        <a style="color: aliceblue;" href="#bloca"><strong>mes créations </strong></a>
-        <a style="color: aliceblue;" href="#blocb"><strong>mes compétences </strong></a>
-        <a style="color: aliceblue;" href="#blocc"><strong>mon expérience </strong></a>
+    <body class="body">
+        <header>
+                <nav>
+                    <div class="logo"><img src="assets/xldjwFZ.gif" width="50"></div>
+                
+                    <ul class="nav-links">
+                        <li><a href="#bloca"><strong>mes créations </strong></a></li>
+                        <li><a href="#blocb"><strong>mes compétences </strong></a></li>
+                        <li><a href="#blocc"><strong>mon expérience </strong></a></li>
+                    </ul>
 
-        <h2 style="color: orange;"><em>GITHUB</em>/<i>GITLAB</i></h2>
-        <button onclick="'google.com'">github</button>
-        <button>gitlab</button>
+                </nav>
+        </header>
 
-        <h2 id="bloca" style="color: aliceblue;">Mes créations :</h2>
-        <h3 style="color: coral;">SNAKE :</h3>
+        <section class="head">
+            <div class="manuimg"><img src="assets/manu.jpg" width="700" height="150"></div> 
+            <div class="title">
+                
+            </div>
+            <div class="line-container">
+                <span class="line-number">1
+                    <div class="line-content"><p><span class="var-color">int </span><span class="ex-color">main</span><span class="text-color">(){</span></p></div>
+                </span>
+            </div>
+            <div class="line-container">
+                <span class="line-number">2
+                    <div class="line-content"><p><span>| </span><span class="var-color">String</span> <span class="text-color">presentation</span> <span class="equal-color">=</span> <span class="varname-color">0</span><span class="text-color">;</span></p></div>
+                </span>
+            </div>
+            <div class="line-container">
+                <span class="line-number" style="background-color: #393e46;">3
+                    <div class="line-content"><span>| </span><span class="var-color">String </span><span class="text-color">name</span> <span class="equal-color"> = </span><h1>Alphée Sordet Salin</h1><span class="text-color">;</span> <span class="pipe-animation"> |</span></div>
+                </span>
+            </div>
+            <div class="line-container">
+                <span class="line-number">4
+                    <div class="line-content"><span>| </span><span class="ex-color">printf</span><span class="varname-color">(</span><span>"Étudiant en 1ère année développeur informatique"</span><span class="varname-color">)</span><span class="text-color">;</span></div>
+                </span>
+            <div class="line-container">
+                <span class="line-number">5
+                    <div class="line-content"><span class="text-color">}</span></div>
+                </span>
+            <div class="line-container">
+                <span class="line-number">6
+                    <div class="line-content"><p></p></div>
+                </span>
+            </div>
+
+            </div>
+            </div>
+        </section>
+
+
         
-        <p style="color: beige;">J'ai recrée un snake en <i>C</i> avec la librairie SDL2 dans le cadre de mes études.</p>
-        <A style="color: gold" href="https://gitlab.triscl.bzh/asordet-salin/snake" target="_blank">Lien vers gitlab</A>
-        <img src="snake.png" width="200" height="400" alt="image de snake mal cadrée">
+        <div class="git">
+            <h2><em>GITHUB </em>/<i> GITLAB</i> : </h2>
+            
+            <div class="git_button">
+                <a href="https://github.com/mille3sansDouze" class="bouton_git" target="_blank">github</a>
+                <a href="https://gitlab.triscl.bzh/asordet-salin" target="_blank" class="bouton_git">gitlab</a>
+            </div>
+            <img src="assets/melenchon.jpeg" height="150" width="700">
+        </div>
 
-        <h3 style="color: coral;">IFP</h3>
-        <p style="color: beige;">Dans le cadre de mon projet de baccalauréat j'ai crée un systemme en <i>arduino c</i>permetant la lecture d'une carte rfid avec un arduino et un rapberry pi. La lecture de carte permetait d'autoriser l'acces sur un site web</p>
-        <a style="color:gold;" href="https://docs.google.com/presentation/d/1ioaMQ6qV8-mVjNuUrPSJAiA1nXdxeThOasL0rVzlh4U/edit?usp=sharing" target="_blank">Présentation de L'ifp</a>
 
-        <img src="ifp.png" width="200" height="200" alt="image de l'ifp">
+
+        <h2 id="bloca">Mes créations :</h2>
+        <h3>SNAKE :</h3>
         
-    <h2 id="blocb" style="color:aliceblue;">Mes compétences :</h2>
-    <p style="color: beige;">
+        <p>J'ai recrée un snake en <i>C</i> avec la librairie SDL2 dans le cadre de mes études.</p>
+        <A href="https://gitlab.triscl.bzh/asordet-salin/snake" target="_blank">Lien vers gitlab</A>
+        <img src="assets/snake.png" width="200" height="400" alt="image de snake mal cadrée">
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse fringilla, dolor id condimentum sodales, tellus quam facilisis nisl, a rutrum ipsum ante eget quam. Proin ultrices tincidunt nisl eu accumsan. Cras varius nibh nunc, quis consequat sapien rutrum sed. Donec ac mauris vel tellus consectetur ornare. Mauris sollicitudin nulla ut diam aliquet, a sodales lectus ornare. Proin venenatis dui id posuere pretium. Phasellus non tortor metus. Vestibulum rutrum lacus ac ante eleifend efficitur. Nulla arcu nunc, rhoncus et faucibus viverra, commodo eget metus. In sodales odio purus, a facilisis magna porttitor sit amet.
+        <h3>IFP</h3>
+        <p>Dans le cadre de mon projet de baccalauréat j'ai crée un systemme en <i>arduino c</i>permetant la lecture d'une carte rfid avec un arduino et un rapberry pi. La lecture de carte permetait d'autoriser l'acces sur un site web</p>
+        <a href="https://docs.google.com/presentation/d/1ioaMQ6qV8-mVjNuUrPSJAiA1nXdxeThOasL0rVzlh4U/edit?usp=sharing" target="_blank">Présentation de L'ifp</a>
 
-Etiam in purus vitae est consequat efficitur. Morbi malesuada tortor at placerat scelerisque. Fusce massa lorem, congue vel nunc ut, auctor elementum libero. In hac habitasse platea dictumst. Donec suscipit pretium mauris at eleifend. Aenean cursus mauris at convallis congue. Fusce suscipit libero lacinia, viverra ligula eget, commodo mauris. Proin libero lacus, tincidunt vitae mi ut, pellentesque tincidunt turpis.
+        <img src="assets/ifp.png" width="200" height="200" alt="image de l'ifp">
+        
+    <h2 id="blocb">Mes compétences :</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse fringilla, dolor id condimentum sodales,</p>
 
-Sed semper et eros aliquam sollicitudin. Sed id sem lobortis, lacinia turpis tristique, tempor tellus. Etiam iaculis magna pulvinar, tempor nisi ut, euismod quam. Nam faucibus, arcu in cursus tincidunt, eros augue porttitor diam, et tincidunt est mauris accumsan ligula. Pellentesque ornare malesuada urna, sit amet egestas urna tempor vitae. Etiam consectetur, nisi eget commodo blandit, nisl tortor posuere arcu, in convallis leo lacus vel nibh. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nulla ut pharetra dolor, eget congue turpis. Donec facilisis scelerisque velit, eget varius lorem placerat mattis. Nunc nec bibendum enim, at varius dui. Duis et massa et mauris accumsan ultricies vel in arcu. Nunc ullamcorper metus vel velit egestas, ut pulvinar nunc posuere. Praesent sollicitudin quis dolor et tempus. Cras commodo nec enim at luctus.
+    <h2 id="blocc">Mon expérience :</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse fringilla, dolor id condimentum sodales,</p>
 
-Maecenas eu risus vestibulum, dignissim urna in, ultricies libero. Morbi vestibulum turpis non quam lobortis, at feugiat libero finibus. Aliquam tempus mauris tortor, a tincidunt felis posuere vitae. Morbi et tellus eu nibh mollis congue sed eu ante. Nullam non nunc nec ante tincidunt posuere. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam eget auctor lacus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aliquam auctor tortor felis, ac laoreet est molestie eu. Vestibulum hendrerit, diam quis semper hendrerit, elit dui laoreet ante, a ultricies dui mi sit amet elit. Nullam malesuada pretium leo id fermentum. Morbi tempor, lectus sed mollis commodo, ligula odio lacinia urna, nec lobortis dolor est dignissim turpis. Vivamus egestas eros eu diam vestibulum, eu commodo lorem euismod. Phasellus et faucibus lacus, quis hendrerit nisi.
-
-Donec dignissim neque sed interdum dictum. Aliquam non dolor sed felis vestibulum lobortis ut vitae nibh. Donec dictum sem vel commodo tristique. Ut tellus libero, accumsan dignissim finibus vitae, facilisis eleifend nisi. Maecenas vitae dignissim nibh. Nam in luctus nisl. Vivamus lectus dolor, pretium sit amet ante dignissim, dictum feugiat nibh. Sed quis leo non felis pharetra gravida ac sed erat. Fusce luctus, justo eu facilisis sagittis, lacus lacus accumsan augue, eget pretium nulla ex vitae leo. Mauris sodales aliquet erat in molestie. </p>
-
-    <h2 id="blocc" style="color: aliceblue;">Mon expérience :</h2>
-    <p style="color: beige;">
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse fringilla, dolor id condimentum sodales, tellus quam facilisis nisl, a rutrum ipsum ante eget quam. Proin ultrices tincidunt nisl eu accumsan. Cras varius nibh nunc, quis consequat sapien rutrum sed. Donec ac mauris vel tellus consectetur ornare. Mauris sollicitudin nulla ut diam aliquet, a sodales lectus ornare. Proin venenatis dui id posuere pretium. Phasellus non tortor metus. Vestibulum rutrum lacus ac ante eleifend efficitur. Nulla arcu nunc, rhoncus et faucibus viverra, commodo eget metus. In sodales odio purus, a facilisis magna porttitor sit amet.
-
-Etiam in purus vitae est consequat efficitur. Morbi malesuada tortor at placerat scelerisque. Fusce massa lorem, congue vel nunc ut, auctor elementum libero. In hac habitasse platea dictumst. Donec suscipit pretium mauris at eleifend. Aenean cursus mauris at convallis congue. Fusce suscipit libero lacinia, viverra ligula eget, commodo mauris. Proin libero lacus, tincidunt vitae mi ut, pellentesque tincidunt turpis.
-
-Sed semper et eros aliquam sollicitudin. Sed id sem lobortis, lacinia turpis tristique, tempor tellus. Etiam iaculis magna pulvinar, tempor nisi ut, euismod quam. Nam faucibus, arcu in cursus tincidunt, eros augue porttitor diam, et tincidunt est mauris accumsan ligula. Pellentesque ornare malesuada urna, sit amet egestas urna tempor vitae. Etiam consectetur, nisi eget commodo blandit, nisl tortor posuere arcu, in convallis leo lacus vel nibh. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nulla ut pharetra dolor, eget congue turpis. Donec facilisis scelerisque velit, eget varius lorem placerat mattis. Nunc nec bibendum enim, at varius dui. Duis et massa et mauris accumsan ultricies vel in arcu. Nunc ullamcorper metus vel velit egestas, ut pulvinar nunc posuere. Praesent sollicitudin quis dolor et tempus. Cras commodo nec enim at luctus.
-
-Maecenas eu risus vestibulum, dignissim urna in, ultricies libero. Morbi vestibulum turpis non quam lobortis, at feugiat libero finibus. Aliquam tempus mauris tortor, a tincidunt felis posuere vitae. Morbi et tellus eu nibh mollis congue sed eu ante. Nullam non nunc nec ante tincidunt posuere. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam eget auctor lacus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aliquam auctor tortor felis, ac laoreet est molestie eu. Vestibulum hendrerit, diam quis semper hendrerit, elit dui laoreet ante, a ultricies dui mi sit amet elit. Nullam malesuada pretium leo id fermentum. Morbi tempor, lectus sed mollis commodo, ligula odio lacinia urna, nec lobortis dolor est dignissim turpis. Vivamus egestas eros eu diam vestibulum, eu commodo lorem euismod. Phasellus et faucibus lacus, quis hendrerit nisi.
-
-Donec dignissim neque sed interdum dictum. Aliquam non dolor sed felis vestibulum lobortis ut vitae nibh. Donec dictum sem vel commodo tristique. Ut tellus libero, accumsan dignissim finibus vitae, facilisis eleifend nisi. Maecenas vitae dignissim nibh. Nam in luctus nisl. Vivamus lectus dolor, pretium sit amet ante dignissim, dictum feugiat nibh. Sed quis leo non felis pharetra gravida ac sed erat. Fusce luctus, justo eu facilisis sagittis, lacus lacus accumsan augue, eget pretium nulla ex vitae leo. Mauris sodales aliquet erat in molestie. </p>
-
-    <h2 style="color: aliceblue;">bloc d'en bas :</h2>
-    <p style="color: beige;">
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse fringilla, dolor id condimentum sodales, tellus quam facilisis nisl, a rutrum ipsum ante eget quam. Proin ultrices tincidunt nisl eu accumsan. Cras varius nibh nunc, quis consequat sapien rutrum sed. Donec ac mauris vel tellus consectetur ornare. Mauris sollicitudin nulla ut diam aliquet, a sodales lectus ornare. Proin venenatis dui id posuere pretium. Phasellus non tortor metus. Vestibulum rutrum lacus ac ante eleifend efficitur. Nulla arcu nunc, rhoncus et faucibus viverra, commodo eget metus. In sodales odio purus, a facilisis magna porttitor sit amet.
-
-Etiam in purus vitae est consequat efficitur. Morbi malesuada tortor at placerat scelerisque. Fusce massa lorem, congue vel nunc ut, auctor elementum libero. In hac habitasse platea dictumst. Donec suscipit pretium mauris at eleifend. Aenean cursus mauris at convallis congue. Fusce suscipit libero lacinia, viverra ligula eget, commodo mauris. Proin libero lacus, tincidunt vitae mi ut, pellentesque tincidunt turpis.
-
-Sed semper et eros aliquam sollicitudin. Sed id sem lobortis, lacinia turpis tristique, tempor tellus. Etiam iaculis magna pulvinar, tempor nisi ut, euismod quam. Nam faucibus, arcu in cursus tincidunt, eros augue porttitor diam, et tincidunt est mauris accumsan ligula. Pellentesque ornare malesuada urna, sit amet egestas urna tempor vitae. Etiam consectetur, nisi eget commodo blandit, nisl tortor posuere arcu, in convallis leo lacus vel nibh. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nulla ut pharetra dolor, eget congue turpis. Donec facilisis scelerisque velit, eget varius lorem placerat mattis. Nunc nec bibendum enim, at varius dui. Duis et massa et mauris accumsan ultricies vel in arcu. Nunc ullamcorper metus vel velit egestas, ut pulvinar nunc posuere. Praesent sollicitudin quis dolor et tempus. Cras commodo nec enim at luctus.
-
-Maecenas eu risus vestibulum, dignissim urna in, ultricies libero. Morbi vestibulum turpis non quam lobortis, at feugiat libero finibus. Aliquam tempus mauris tortor, a tincidunt felis posuere vitae. Morbi et tellus eu nibh mollis congue sed eu ante. Nullam non nunc nec ante tincidunt posuere. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam eget auctor lacus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aliquam auctor tortor felis, ac laoreet est molestie eu. Vestibulum hendrerit, diam quis semper hendrerit, elit dui laoreet ante, a ultricies dui mi sit amet elit. Nullam malesuada pretium leo id fermentum. Morbi tempor, lectus sed mollis commodo, ligula odio lacinia urna, nec lobortis dolor est dignissim turpis. Vivamus egestas eros eu diam vestibulum, eu commodo lorem euismod. Phasellus et faucibus lacus, quis hendrerit nisi.
-
-Donec dignissim neque sed interdum dictum. Aliquam non dolor sed felis vestibulum lobortis ut vitae nibh. Donec dictum sem vel commodo tristique. Ut tellus libero, accumsan dignissim finibus vitae, facilisis eleifend nisi. Maecenas vitae dignissim nibh. Nam in luctus nisl. Vivamus lectus dolor, pretium sit amet ante dignissim, dictum feugiat nibh. Sed quis leo non felis pharetra gravida ac sed erat. Fusce luctus, justo eu facilisis sagittis, lacus lacus accumsan augue, eget pretium nulla ex vitae leo. Mauris sodales aliquet erat in molestie. 
-
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse fringilla, dolor id condimentum sodales, tellus quam facilisis nisl, a rutrum ipsum ante eget quam. Proin ultrices tincidunt nisl eu accumsan. Cras varius nibh nunc, quis consequat sapien rutrum sed. Donec ac mauris vel tellus consectetur ornare. Mauris sollicitudin nulla ut diam aliquet, a sodales lectus ornare. Proin venenatis dui id posuere pretium. Phasellus non tortor metus. Vestibulum rutrum lacus ac ante eleifend efficitur. Nulla arcu nunc, rhoncus et faucibus viverra, commodo eget metus. In sodales odio purus, a facilisis magna porttitor sit amet.
-
-Etiam in purus vitae est consequat efficitur. Morbi malesuada tortor at placerat scelerisque. Fusce massa lorem, congue vel nunc ut, auctor elementum libero. In hac habitasse platea dictumst. Donec suscipit pretium mauris at eleifend. Aenean cursus mauris at convallis congue. Fusce suscipit libero lacinia, viverra ligula eget, commodo mauris. Proin libero lacus, tincidunt vitae mi ut, pellentesque tincidunt turpis.
-
-Sed semper et eros aliquam sollicitudin. Sed id sem lobortis, lacinia turpis tristique, tempor tellus. Etiam iaculis magna pulvinar, tempor nisi ut, euismod quam. Nam faucibus, arcu in cursus tincidunt, eros augue porttitor diam, et tincidunt est mauris accumsan ligula. Pellentesque ornare malesuada urna, sit amet egestas urna tempor vitae. Etiam consectetur, nisi eget commodo blandit, nisl tortor posuere arcu, in convallis leo lacus vel nibh. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nulla ut pharetra dolor, eget congue turpis. Donec facilisis scelerisque velit, eget varius lorem placerat mattis. Nunc nec bibendum enim, at varius dui. Duis et massa et mauris accumsan ultricies vel in arcu. Nunc ullamcorper metus vel velit egestas, ut pulvinar nunc posuere. Praesent sollicitudin quis dolor et tempus. Cras commodo nec enim at luctus.
-
-Maecenas eu risus vestibulum, dignissim urna in, ultricies libero. Morbi vestibulum turpis non quam lobortis, at feugiat libero finibus. Aliquam tempus mauris tortor, a tincidunt felis posuere vitae. Morbi et tellus eu nibh mollis congue sed eu ante. Nullam non nunc nec ante tincidunt posuere. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam eget auctor lacus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aliquam auctor tortor felis, ac laoreet est molestie eu. Vestibulum hendrerit, diam quis semper hendrerit, elit dui laoreet ante, a ultricies dui mi sit amet elit. Nullam malesuada pretium leo id fermentum. Morbi tempor, lectus sed mollis commodo, ligula odio lacinia urna, nec lobortis dolor est dignissim turpis. Vivamus egestas eros eu diam vestibulum, eu commodo lorem euismod. Phasellus et faucibus lacus, quis hendrerit nisi.
-
-Donec dignissim neque sed interdum dictum. Aliquam non dolor sed felis vestibulum lobortis ut vitae nibh. Donec dictum sem vel commodo tristique. Ut tellus libero, accumsan dignissim finibus vitae, facilisis eleifend nisi. Maecenas vitae dignissim nibh. Nam in luctus nisl. Vivamus lectus dolor, pretium sit amet ante dignissim, dictum feugiat nibh. Sed quis leo non felis pharetra gravida ac sed erat. Fusce luctus, justo eu facilisis sagittis, lacus lacus accumsan augue, eget pretium nulla ex vitae leo. Mauris sodales aliquet erat in molestie. </p>
+    <h2>bloc d'en bas :</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse fringilla, dolor id condimentum sodales,</p>
 
     </body>
 

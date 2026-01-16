@@ -130,6 +130,7 @@ nav {
 }
 
 .line-container p {
+	display: inline;
 	font-size: 25px;
 	height: 0;
 	margin: 0;
@@ -270,16 +271,26 @@ margin: 5rem;
 
 #projet2 {
 	display: flex;
-	flex-direction: column;
+	flex-direction: row;
 	align-items: center;
 	border: solid 1px #888888;
 	border-radius: 1rem;
 	margin-left: 15rem;
 	margin-right: 15rem;
-	margin-top: 3rem;
+	margin-top: 5rem;
+	justify-content: space-around;
+	gap: 5rem;
+	padding: 3rem;
+}
+
+#projet2 img {
+	background-color: #393e46;
+	border-radius: 2rem;
+	border: solid 1px #222831;
+	box-shadow: 0px 0px 25px #ffeb3a;
 }
 .projet-text-2 {
 	text-align: center;
 	font-size: 1rem;
-
+	max-width: 30rem;
 }

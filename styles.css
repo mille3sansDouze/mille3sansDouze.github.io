@@ -1,5 +1,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Turret+Road:wght@200;300;400;500;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap');
 header {
 	background-color: #393e46;
 	position: fixed;
@@ -233,9 +234,9 @@ margin: 5rem;
 
 
 .my-creations {
-
+	
 }
-#bloca {
+#blocah {
 	font-family: "Turret Road", sans-serif;
 	font-weight: 800;
 	font-size: 4rem;
@@ -293,4 +294,65 @@ margin: 5rem;
 	text-align: center;
 	font-size: 1rem;
 	max-width: 30rem;
+}
+
+
+
+#blocbh {
+	font-family: "Turret Road", sans-serif;
+	font-weight: 800;
+	font-size: 4rem;
+	text-align: center;
+	color: #f96d00;
+	margin: 5rem;
+}
+
+
+#competences {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+	background-color: #0a0a0a;
+	border: solid 1px #d3d6db;
+	box-shadow: 0px 0px 40px #f2f2f2;
+	padding: 2rem;
+	padding-bottom:7rem;
+	border-radius: 2rem;
+}
+
+#competences p {
+	font-family: "Turret Road", sans-serif;
+	font-weight: 800;
+	font-size: 2rem;
+	text-align: center;
+	color: #d3d6db;
+	margin: 5rem;
+
+}
+
+#table {
+	border-collapse: collapse;
+	border: 2px solid #d3d6db;
+	font-family: "Exo 2", sans-serif;
+  	font-optical-sizing: auto;
+	font-size: 2rem;
+	text-align: center;
+
+}
+#tbody td {
+	border: solid 2px #f2f2f2;
+	padding: 1rem;
+	
+	min-width: 30rem;
+}
+#linux {
+	color: #f96d00;
+}
+#fedora {
+	color: #3a68ff;
+}
+
+#termanim{
+	animation: blink 1s step-end infinite;
 }

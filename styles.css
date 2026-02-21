@@ -382,12 +382,14 @@ margin: 5rem;
 
 .experience-container-center {
 	display: flex;
+	flex-direction: column;
+	gap: 5rem;
 	justify-content: center;
 	align-items: center;
 }
 .experience-container {
 	background-color: #1e1e1e;
-	height: 25rem;
+	height: auto;
 	width: 50rem;
 	border-radius: 6px;
 	box-shadow:
@@ -445,6 +447,32 @@ margin: 5rem;
 	
 }
 
+.experience-content {
+	padding: 3rem;
+	font-size: large;
+	display: flex;
+	flex-direction: column;
+	gap: 1rem;
+	align-items: center;
+
+}
+.experience-content-details {
+	max-width: 30rem;
+	margin: 2rem;
+}
+
+.experience-p-line {
+	width: 2px;
+	height: 5rem;
+	background: white;
+	border-radius: 50px;
+}
+.experience-p-line-o {
+	width: 5rem;
+	height: 2px;
+	background: white;
+	border-radius: 50px;
+}
 
 .footer {
   background-color: #1e1e1e;
